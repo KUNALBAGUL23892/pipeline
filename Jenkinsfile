@@ -4,7 +4,7 @@ pipeline {
                  stage('git step') {
                  steps {
                      echo 'Hi, this is MY GIT STEP'
-                     git --version
+                    sh git --version
                  }
                  }
                  stage('maven step') {
